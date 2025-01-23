@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-image: url("image/colorful_image.jpg");
+}
+.profile_card{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid rgba(163, 158, 158, 0.856);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.774);
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.image .profile-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.473);
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.data h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+span{
+    font-size: 1.4rem;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.row .info{
+    text-align: center;
+    padding: 0 20px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.buttons .btn{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 8px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    white-space: nowrap;
+    background: linear-gradient(to left, rgb(2, 183, 255), rgb(250, 170, 184));
+}
+.buttons .btn:hover{
+    box-shadow: inset 0 3px 20px rgba(0, 0, 0, 0.781);
+}
